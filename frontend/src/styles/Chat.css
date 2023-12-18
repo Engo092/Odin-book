@@ -1,0 +1,111 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+}
+
+.chatHeader {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #858585;
+}
+
+.chatHeader h2 {
+    margin-bottom: 0.8rem;
+    margin-left: 1rem;
+}
+
+.closeChat {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    appearance: none;
+    border: 1px solid darkgray;
+    background-color: #1e293b;
+    color: white;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+.closeChat:hover {
+    background-color: #2f3b4d;
+    cursor: pointer;
+}
+
+.chatMessages {
+    display: flex;
+    flex-direction: column-reverse;
+    max-height: 420px;
+    overflow-y: auto;
+    margin: 0 1rem;
+}
+
+.friendMessage p {
+    display: inline-block;
+    border: 1px solid darkgray;
+    border-radius: 13px;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    max-width: 35%;
+    background-color: #f3f3f3;
+}
+
+.userMessage {
+    display: flex;
+    justify-content: right;
+}
+
+.userMessage p {
+    display: inline-block;
+    border: 1px solid darkgray;
+    border-radius: 13px;
+    padding: 0.8rem;
+    margin-right: 0.4rem;
+    max-width: 35%;
+    background-color: #2563eb;
+    color: #fafafa;
+}
+
+.sendMessage {
+    border-top: 1px solid #979797;
+    background-color: #dddddd;
+    margin-top: auto;
+    padding-bottom: 0.4rem;
+}
+
+.sendMessage form {
+    display: flex;
+    align-items: center;
+}
+
+.messageInput {
+    font-size: medium;
+    appearance: none;
+    border: 1px solid #4b5057;
+    border-radius: 8px;
+    padding: 4px;
+    margin-left: 0.4rem;
+    width: 78%;
+    margin-top: 5px;
+}
+
+.messageInputLabel {
+    padding-left: 0.6rem;
+    margin-top: 8px;
+}
+
+.sendMessageButton {
+    font-size: large;
+    border-radius: 6px;
+    border: none;
+    background-color: #1d4ed8;
+    color: #fafafa;
+    padding: 4px;
+    margin-left: 6px;
+    margin-top: 4px;
+}
+
+.sendMessageButton:hover {
+    cursor: pointer;
+    background-color: #0f3397;
+}

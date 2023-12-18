@@ -1,0 +1,59 @@
+.loginContent {
+    margin: 8rem auto;
+    width: 40%;
+    border: 2px solid #222222;
+    border-radius: 6px;
+    padding: 1rem 1.5rem;
+    background-color: #fafafa;
+    box-shadow: 2px 2px 6px #9c9c9c;
+    color: #141414;
+}
+
+.loginContent form {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginContent h2 {
+    font-size: xx-large;
+}
+
+label {
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 8px;
+    appearance: none;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    padding: 3px;
+    font-size: medium;
+}
+
+.loginSubmit {
+    margin-top: 10px;
+    appearance: none;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    width: 80px;
+    font-size: larger;
+    background-color: #2563eb;
+    color: #fafafa;
+}
+
+.loginSubmit:hover {
+    cursor: pointer;
+    background-color: #2256c7;
+}
+
+.signup {
+    font-size: large;
+}
+
+.facebookLogin {
+    color: #3b3b3b;
+    font-size: large;
+}

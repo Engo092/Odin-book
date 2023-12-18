@@ -1,0 +1,67 @@
+.friendList, .allUsers, .requestsReceived, .pendingRequests {
+    margin: 0 auto;
+    border-radius: 6px;
+    max-width: 520px;
+    display: grid;
+    gap: 25px;
+    background-color: white;
+    box-shadow: 2px 2px 6px #cfcfcf;
+    padding: 0.5rem;
+}
+
+.friendList, .requestsReceived, .pendingRequests {
+    margin-bottom: 2rem;
+}
+
+.acceptFriendRequest, .sendFriendRequest, .removeFriend, .removeFriendRequest {
+    padding: 0.5rem;
+    font-weight: bold;
+    appearance: none;
+    background-color: #fafafa;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: 1rem;
+    border: none;
+    color: #fafafa;
+}
+
+.acceptFriendRequest {
+    background-color: #044633;
+}
+
+.sendFriendRequest {
+    background-color: #2563eb;
+}
+
+.removeFriend, .removeFriendRequest {
+    background-color: #b91c1c;
+}
+
+.acceptFriendRequest:hover {
+    cursor: pointer;
+    background-color: #09523d;
+}
+
+.sendFriendRequest:hover {
+    cursor: pointer;
+    background-color: #2158ce;
+}
+
+.removeFriend:hover, .removeFriendRequest:hover {
+    cursor: pointer;
+    background-color: #9b1717;
+}
+
+.friendDisplay {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    font-size: large;
+}
+
+.friendDisplay a {
+    text-decoration: none;
+    color: black;
+}

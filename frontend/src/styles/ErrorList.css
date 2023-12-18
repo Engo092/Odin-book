@@ -1,0 +1,11 @@
+.errorList {
+    margin-left: 9%;
+    margin-top: 4px;
+}
+
+.error {
+    font-size: large;
+    list-style: disc;
+    color: #5e0e0e;
+    margin-bottom: 5px;
+}
