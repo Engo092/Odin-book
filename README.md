@@ -13,4 +13,6 @@ While developing this project, I started with the front-end, finishing all visua
 
 Now, logging in with facebook is supposed to show your facebook profile picture on the site, but it seems that this function [is not working properly](https://developers.facebook.com/community/threads/292690177015780/) as of December 2023. As such, some users may be able to see their profile picture properly, but others may not. It seems this cannot be fixed at the moment.
 
-I will eventually deploy this app online and link it here, so stay tuned if you want to try it out.
+App link: https://odin-book01.fly.dev/
+
+Currently I am having problems logging in with Facebook on the deployed app, even though it works just fine on my machine. As such, if you want to try it out, please just log in normally.
